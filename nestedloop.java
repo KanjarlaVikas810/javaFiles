@@ -7,8 +7,6 @@ public class NestedLoopExample {
             }
             System.out.println();                 // new line after each row
         }
-        for (int j = 1; j <= 4; j++) {        // inner loop
-                System.out.print(j + " ");
-            }
+        
     }
 }
