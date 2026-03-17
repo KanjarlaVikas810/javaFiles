@@ -13,9 +13,7 @@ public final class Matrix {
         for (int i = 0; i < n; i++) {
             if (data[i].length != m) throw new IllegalArgumentException("Jagged array");
             System.arraycopy(data[i], 0, M.a[i], 0, m);
-            for (int i = 1; i <= 3; i++) {            // outer loop
-            System.out.println();                 // new line after each row
-        }
+            
         }
         return M;
     }
