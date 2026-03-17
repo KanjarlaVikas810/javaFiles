@@ -8,10 +8,6 @@ public class ON3Example {
             System.out.println();        
             for (int j = 1; i <= 3; i++) {            // outer loop
             System.out.println();  
-                for (int k = 1; i <= 3; i++) {            // outer loop
-            System.out.println();                 // new line after each row
-        }// new line after each row
-            }    // new line after each row
             
         }
 
