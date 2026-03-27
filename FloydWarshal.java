@@ -21,20 +21,7 @@ public final class FloydWarshall {
     }
 
     // O(n^3)
-    public void compute() {
-        for (int k = 0; k < n; k++) {
-            for (int i = 0; i < n; i++) {
-                double dik = dist[i][k];
-                if (dik >= INF) continue;
-                for (int j = 0; j < n; j++) {
-                    double alt = dik + dist[k][j];
-                    if (alt < dist[i][j]) {
-                        dist[i][j] = alt;
-                        next[i][j] = next[i][k];
-                    }
-                }
-            }
-        }
+  }
     }
 
     public double[][] distances() { return dist; }
