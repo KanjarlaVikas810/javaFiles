@@ -13,4 +13,16 @@ public class ON3Example {
 
         System.out.println("Total operations: " + count);
     }
+        for (int i = 1; i <= 3; i++) {            // outer loop
+            System.out.println();        
+            for (int j = 1; i <= 3; i++) {            // outer loop
+            System.out.println();  
+            
+        }
+            for (int i = 1; i <= 3; i++) {            // outer loop
+            System.out.println();        
+            for (int j = 1; i <= 3; i++) {            // outer loop
+            System.out.println();  
+            
+        }
 }
