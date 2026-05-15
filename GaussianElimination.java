@@ -10,7 +10,7 @@ public final class GaussianElimination {
             double[] tmp = A[p]; A[p] = A[max]; A[max] = tmp;
             double t = b[p]; b[p] = b[max]; b[max] = t;
 
-            if (Math.abs(A[p][p]) < 1e-12) throw new ArithmeticException("Singular");
+            
 
             // Eliminate
             for (int i = p + 1; i < n; i++) {
